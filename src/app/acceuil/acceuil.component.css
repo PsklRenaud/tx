@@ -1,0 +1,58 @@
+/* Page noire recouvrante */
+.page-accueil{
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.8);   
+}
+/* Photo de fond N&B */
+.bg-image{
+    width: 100%;
+    height:100%;
+    background-image: url(../../image/couple-20-ans-decart.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: Cover;
+}
+/* Titre Tandem Renconre */
+.title{
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Parisienne', cursive;
+    font-size: 11vh;
+    color: silver;
+    text-shadow: 0.3vh 0.3vh grey; 
+}
+/* Slogan "A deux ..." */
+.slogan{
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 5vh;
+    color: silver;
+    text-shadow: 0.2vh 0.2vh grey;  
+}
+/* Image Velo */
+.logo{
+ background-image: url(../../image/Detour_Lumineux1.png);
+ width: 20vh;
+ height:20vh;
+ background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover; 
+}
+.btnAcceuil {
+    color: silver;
+    border: 1px solid silver;
+    border-radius: 25px;
+    width:20vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnAcceuil:hover,
+.btnAcceuil:focus {
+    color: black;
+    background-color: silver;
+    border: 1px solid silver;
+}

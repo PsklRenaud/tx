@@ -1,0 +1,56 @@
+/* polices */
+ * {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  H1,
+  h2,
+  h3,
+  H4,
+  h5,
+  h6 {
+    font-family: 'Parisienne', cursive;
+  }
+  
+  /* Mise en page */
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  /* Lien non surligné, coloré, etc */
+  .nav-a,
+  .nav-a:visited,
+  .nav-a:hover,
+  .nav-a:focus,
+  .nav-a:active {
+    text-decoration: none;
+  }
+  
+  /* saut de ligne*/
+  .brStyle {
+    margin-top: 20px;
+  }
+/* Saut de ligne */
+  .Space1{
+    height: 1vh;
+  }
+  .Space2{
+    height: 2vh;
+  }
+  .Space3{
+    height: 3vh;
+  }
+  .Space4{
+    height: 4vh;
+  }
+  .Space5{
+    height: 5vh;
+  }
