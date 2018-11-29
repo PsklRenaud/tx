@@ -1,5 +1,5 @@
 /* polices */
- * {
+ *, p {
     font-family: 'Roboto', sans-serif;
   }
   
@@ -53,4 +53,10 @@
   }
   .Space5{
     height: 5vh;
+  }
+  .Space10{
+    height: 10vh;
+  }
+  .Space15{
+    height: 15vh;
   }

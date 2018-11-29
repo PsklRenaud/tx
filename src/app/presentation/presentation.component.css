@@ -1,0 +1,70 @@
+/* Police */
+.policeSilver{
+    color:silver;
+    font-size: 2vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+.policeBlack{
+    color:black;
+    font-size: 2vh;
+    padding: 2vh 2vh 2vh 2vh;
+}
+/* Qui suis-je et Organisation */
+.title{
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 8vh;
+    color:black;
+    text-shadow: 0.2vh 0.2vh grey; 
+}
+/* Concept" */
+.titleNb{
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 8vh;
+    color: silver;
+    text-shadow: 0.2vh 0.2vh grey;  
+}
+.conceptPart{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.8); 
+}
+.bg-image{
+    width: 100%;
+    background-image: url(../../image/love-heart.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: Cover;
+    box-shadow: 0.2vh 0.4vh 0.2vh 0.2vh  grey;
+}
+.contenairVid {
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh grey;
+}
+/* Organisation Soirées */
+.contenairPic {
+    width: 33vh;
+    height: 22vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: Cover;
+    box-shadow: 0.2vh 0.2vh grey;
+    border: 1px solid black;
+    border-radius: 25px; 
+    margin-top:3vh;
+}
+.contenairTxt{
+    width: 33vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top:3vh;
+}
+.pic1{
+    background-image: url(../../image/breakfast-from.jpg);
+}
+.pic2{
+    background-image: url(../../image/toasted-marshmallow.jpg);
+}
