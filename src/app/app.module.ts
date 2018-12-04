@@ -8,12 +8,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { QuestionnaireComponent } from './questionnaire/questionnaire.component';
+import { QuestionComponent } from './question/question.component';
+import { AwnserInputComponent } from './awnser-input/awnser-input.component';
+import { AwnserCheckBoxComponent } from './awnser-check-box/awnser-check-box.component';
 @NgModule({
   declarations: [
     AppComponent,
     AcceuilComponent,
-    PresentationComponent
+    PresentationComponent,
+    QuestionnaireComponent,
+    QuestionComponent,
+    AwnserInputComponent,
+    AwnserCheckBoxComponent
   ],
   imports: [
     BrowserModule,

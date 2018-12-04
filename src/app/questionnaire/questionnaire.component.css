@@ -1,0 +1,11 @@
+* {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.questions {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
