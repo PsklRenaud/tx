@@ -8,12 +8,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AcceuilComponent,
-    PresentationComponent
+    PresentationComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
